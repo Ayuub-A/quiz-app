@@ -1,4 +1,4 @@
 * linguist-vendored
-*.py -linguist-vendored
-*.ipynb -linguist-vendored
-*.ipynb linguist-language=Python
+*.py   -linguist-vendored
+*.json -linguist-vendored
+data/** linguist-vendored
