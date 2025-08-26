@@ -36,7 +36,7 @@ Choose a **category** and **difficulty**, answer multiple-choice questions again
 ## How to Run
 
 ### Option 1 — Windows (recommended): Download the EXE
-1. Go to **Releases**: https://github.com/Ayuub-A/quiz-app/releases/tag/app
+1. Go to **Releases**: [https://github.com/Ayuub-A/quiz-app/releases/tag/app](https://github.com/Ayuub-A/quiz-app/releases/tag/app)
 2. Download `flashcard_gui.exe`
 3. Double-click to run  
    *(The app includes questions and creates a `quiz.db` history file automatically.)*
