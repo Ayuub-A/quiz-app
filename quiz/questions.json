@@ -1,0 +1,602 @@
+{
+    "Python": [
+        {
+            "question": "What is a variable in Python?",
+            "options": [
+                "A place to store data",
+                "A function",
+                "A loop",
+                "An error"
+            ],
+            "answer": "A place to store data",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does 'if' do in Python?",
+            "options": [
+                "Loops forever",
+                "Checks a condition",
+                "Prints a message",
+                "Saves a file"
+            ],
+            "answer": "Checks a condition",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What is a loop used for?",
+            "options": [
+                "Create errors",
+                "Repeat code",
+                "Store data",
+                "Exit the program"
+            ],
+            "answer": "Repeat code",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What is the type of 3/2 in Python 3?",
+            "options": [
+                "int",
+                "float",
+                "str",
+                "bool"
+            ],
+            "answer": "float",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which operator performs floor division?",
+            "options": [
+                "/",
+                "//",
+                "%",
+                "**"
+            ],
+            "answer": "//",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which structure is mutable in Python?",
+            "options": [
+                "tuple",
+                "str",
+                "list",
+                "int"
+            ],
+            "answer": "list",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which method gets a dict value with a default if the key is missing?",
+            "options": [
+                "dict.find()",
+                "dict.get()",
+                "dict.value()",
+                "dict.fetch()"
+            ],
+            "answer": "dict.get()",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does len([1,2,3]) return?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "Error"
+            ],
+            "answer": "3",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does 'is' compare?",
+            "options": [
+                "Value equality",
+                "Object identity",
+                "Types only",
+                "Memory size"
+            ],
+            "answer": "Object identity",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "What is the result of 'hello'[1:4]?",
+            "options": [
+                "hel",
+                "ell",
+                "llo",
+                "heo"
+            ],
+            "answer": "ell",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does list.append(x) do?",
+            "options": [
+                "Adds x as a new element",
+                "Adds each item from x",
+                "Returns a new list",
+                "Sorts the list"
+            ],
+            "answer": "Adds x as a new element",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does list.extend(x) do?",
+            "options": [
+                "Adds x as a new element",
+                "Adds each element from x",
+                "Removes last element",
+                "Clears the list"
+            ],
+            "answer": "Adds each element from x",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Which function returns both index and value when looping?",
+            "options": [
+                "range()",
+                "zip()",
+                "enumerate()",
+                "map()"
+            ],
+            "answer": "enumerate()",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does *args collect in a function definition?",
+            "options": [
+                "Keyword arguments",
+                "Positional arguments",
+                "Return values",
+                "Global variables"
+            ],
+            "answer": "Positional arguments",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Which keyword creates a function?",
+            "options": [
+                "func",
+                "def",
+                "lambda",
+                "yield"
+            ],
+            "answer": "def",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What is __init__ used for in a class?",
+            "options": [
+                "Delete object",
+                "Initialize new objects",
+                "Compare objects",
+                "Import modules"
+            ],
+            "answer": "Initialize new objects",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Which statement correctly opens a file and ensures it closes automatically?",
+            "options": [
+                "open('f.txt')",
+                "with open('f.txt') as f:",
+                "close('f.txt')",
+                "file('f.txt')"
+            ],
+            "answer": "with open('f.txt') as f:",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which data structure removes duplicates automatically?",
+            "options": [
+                "list",
+                "tuple",
+                "set",
+                "dict"
+            ],
+            "answer": "set",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does dict.items() return?",
+            "options": [
+                "Keys only",
+                "Values only",
+                "List of (key, value) pairs",
+                "A copy of the dict"
+            ],
+            "answer": "List of (key, value) pairs",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "What is raised when accessing a missing dict key using square brackets?",
+            "options": [
+                "TypeError",
+                "KeyError",
+                "ValueError",
+                "IndexError"
+            ],
+            "answer": "KeyError",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "What is the boolean value of an empty list []?",
+            "options": [
+                "True",
+                "False",
+                "Error",
+                "None"
+            ],
+            "answer": "False",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which method converts a string to an int if possible?",
+            "options": [
+                "str()",
+                "int()",
+                "float()",
+                "eval()"
+            ],
+            "answer": "int()",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which statement imports a module with an alias?",
+            "options": [
+                "import math as m",
+                "alias math as m",
+                "from m import math",
+                "using math as m"
+            ],
+            "answer": "import math as m",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What is a lambda in Python?",
+            "options": [
+                "Anonymous function",
+                "Package manager",
+                "Class decorator",
+                "Generator"
+            ],
+            "answer": "Anonymous function",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "What does list comprehension produce? [x*x for x in range(3)]",
+            "options": [
+                "[0, 1, 4]",
+                "[1, 4, 9]",
+                "(0, 1, 4)",
+                "{0, 1, 4}"
+            ],
+            "answer": "[0, 1, 4]",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Which statement about default arguments is true?",
+            "options": [
+                "Evaluated at call time",
+                "Evaluated at definition time",
+                "Cannot be used",
+                "Always None"
+            ],
+            "answer": "Evaluated at definition time",
+            "difficulty": "Hard"
+        },
+        {
+            "question": "Which exception block catches any exception as e?",
+            "options": [
+                "except Exception as e:",
+                "catch Exception e:",
+                "on Exception as e:",
+                "handle Exception as e:"
+            ],
+            "answer": "except Exception as e:",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does 'pass' do in Python?",
+            "options": [
+                "Skips execution and throws",
+                "Placeholder that does nothing",
+                "Ends program",
+                "Repeats previous line"
+            ],
+            "answer": "Placeholder that does nothing",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which built-in makes an iterator that yields (index, element)?",
+            "options": [
+                "enumerate()",
+                "iterator()",
+                "index()",
+                "pairs()"
+            ],
+            "answer": "enumerate()",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What does '==' compare?",
+            "options": [
+                "Identity",
+                "Value equality",
+                "Hash only",
+                "Type only"
+            ],
+            "answer": "Value equality",
+            "difficulty": "Easy"
+        }
+    ],
+    "Logic": [
+        {
+            "question": "What is the result of TRUE AND FALSE?",
+            "options": [
+                "TRUE",
+                "FALSE",
+                "ERROR",
+                "UNKNOWN"
+            ],
+            "answer": "FALSE",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "What is the result of TRUE OR FALSE?",
+            "options": [
+                "TRUE",
+                "FALSE",
+                "ERROR",
+                "UNKNOWN"
+            ],
+            "answer": "TRUE",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "NOT TRUE evaluates to:",
+            "options": [
+                "TRUE",
+                "FALSE",
+                "ERROR",
+                "UNKNOWN"
+            ],
+            "answer": "FALSE",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "De Morgan’s Law: NOT (A AND B) is equivalent to:",
+            "options": [
+                "(NOT A) AND (NOT B)",
+                "(NOT A) OR (NOT B)",
+                "A OR B",
+                "A AND B"
+            ],
+            "answer": "(NOT A) OR (NOT B)",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "De Morgan’s Law: NOT (A OR B) is equivalent to:",
+            "options": [
+                "(NOT A) AND (NOT B)",
+                "(NOT A) OR (NOT B)",
+                "A AND B",
+                "A OR B"
+            ],
+            "answer": "(NOT A) AND (NOT B)",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "In logic, A ⇒ B is FALSE only when:",
+            "options": [
+                "A is FALSE, B is TRUE",
+                "A is TRUE, B is TRUE",
+                "A is TRUE, B is FALSE",
+                "A is FALSE, B is FALSE"
+            ],
+            "answer": "A is TRUE, B is FALSE",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "The statement (A OR NOT A) is always:",
+            "options": [
+                "Contradiction",
+                "Tautology",
+                "Contingent",
+                "Unsatisfiable"
+            ],
+            "answer": "Tautology",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "XOR is TRUE when:",
+            "options": [
+                "Inputs are equal",
+                "Inputs differ",
+                "Both TRUE",
+                "Both FALSE"
+            ],
+            "answer": "Inputs differ",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "The contrapositive of A ⇒ B is:",
+            "options": [
+                "B ⇒ A",
+                "NOT A ⇒ NOT B",
+                "NOT B ⇒ NOT A",
+                "A ⇒ NOT B"
+            ],
+            "answer": "NOT B ⇒ NOT A",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Which is equivalent to A ⇒ B?",
+            "options": [
+                "NOT A OR B",
+                "A AND B",
+                "A OR NOT B",
+                "NOT (A OR B)"
+            ],
+            "answer": "NOT A OR B",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "If A AND (B OR C) is TRUE, which must be TRUE?",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "A is FALSE"
+            ],
+            "answer": "A",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "If NOT (A AND B) is TRUE, which must be TRUE?",
+            "options": [
+                "A is FALSE or B is FALSE",
+                "A is TRUE and B is TRUE",
+                "A is TRUE",
+                "B is TRUE"
+            ],
+            "answer": "A is FALSE or B is FALSE",
+            "difficulty": "Medium"
+        }
+    ],
+    "CS Fundamentals": [
+        {
+            "question": "Which data structure offers average O(1) lookup by key?",
+            "options": [
+                "Array",
+                "Linked list",
+                "Hash table",
+                "Binary tree"
+            ],
+            "answer": "Hash table",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "What is the time complexity of binary search on a sorted array?",
+            "options": [
+                "O(1)",
+                "O(log n)",
+                "O(n)",
+                "O(n log n)"
+            ],
+            "answer": "O(log n)",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which algorithm finds the shortest path in a graph with non-negative weights?",
+            "options": [
+                "DFS",
+                "BFS",
+                "Dijkstra’s algorithm",
+                "Kruskal’s algorithm"
+            ],
+            "answer": "Dijkstra’s algorithm",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Which sorting algorithm is stable and has O(n log n) average time?",
+            "options": [
+                "Quick sort",
+                "Merge sort",
+                "Heap sort",
+                "Selection sort"
+            ],
+            "answer": "Merge sort",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Which structure is best for FIFO processing?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Deque",
+                "Priority queue"
+            ],
+            "answer": "Queue",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which operation in Big-O is faster asymptotically?",
+            "options": [
+                "O(n)",
+                "O(n log n)",
+                "O(log n)",
+                "O(n^2)"
+            ],
+            "answer": "O(log n)",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which HTTP method is used to retrieve a resource?",
+            "options": [
+                "POST",
+                "GET",
+                "PUT",
+                "DELETE"
+            ],
+            "answer": "GET",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which SQL keyword is used to retrieve rows from a table?",
+            "options": [
+                "FETCH",
+                "GET",
+                "SELECT",
+                "PULL"
+            ],
+            "answer": "SELECT",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which traversal uses a queue in graphs?",
+            "options": [
+                "DFS",
+                "BFS",
+                "In-order",
+                "Post-order"
+            ],
+            "answer": "BFS",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "RAM is:",
+            "options": [
+                "Non-volatile memory",
+                "Volatile memory",
+                "Secondary storage",
+                "Read-only storage"
+            ],
+            "answer": "Volatile memory",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which command stages changes in Git?",
+            "options": [
+                "git commit",
+                "git stage",
+                "git add",
+                "git push"
+            ],
+            "answer": "git add",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Which data structure is best for LIFO processing?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Hash table",
+                "Graph"
+            ],
+            "answer": "Stack",
+            "difficulty": "Easy"
+        }
+    ]
+}
