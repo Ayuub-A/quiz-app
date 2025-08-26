@@ -37,7 +37,7 @@ Choose a **category** and **difficulty**, answer multiple-choice questions again
 
 ### Option 1 — Windows (recommended): Download the EXE
 1. Go to **Releases**: [https://github.com/Ayuub-A/quiz-app/releases/tag/app](https://github.com/Ayuub-A/quiz-app/releases/tag/app)
-2. Download `flashcard_gui.exe`
+2. Download `quiz.exe`
 3. Double-click to run  
    *(The app includes questions and creates a `quiz.db` history file automatically.)*
 
@@ -49,8 +49,8 @@ Choose a **category** and **difficulty**, answer multiple-choice questions again
 **Requires:** Python 3.9+
 
 # 1) Clone or download the repo
-git clone https://github.com/<your-username>/flashcard-quiz-app.git
-cd flashcard-quiz-app
+git clone [https://github.com/<your-username>/flashcard-quiz-app.git](https://github.com/Ayuub-A/quiz-app/tree/main/quiz)
+
 
 # 2) Run the app
-python flashcard_gui.py
+python quiz.py
